@@ -1,0 +1,48 @@
+:root{
+    --green: rgb(183, 226, 183);
+}
+.all{
+    color: black;
+    background-color: var(--green);
+    border: 1px solid black;
+    display: flex;
+    letter-spacing: 2px; 
+    margin: 0;
+    padding: 0;
+}
+#header {
+    width: 892px;
+    height: 40px;
+    line-height: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+#nav {
+    width: 200px;
+    height: 200px;
+    line-height: 30px;
+    float: left;
+}
+
+#section {
+    width: 200px;
+    height: 200px;
+    line-height: 30px;
+    float: right;
+}
+
+#article {
+    width: 488px;
+    height: 200px;
+    line-height: 30px;
+    justify-content: center;
+}
+
+#footer {
+    width: 892px;
+    height: 40px;
+    line-height: 30px;
+    align-items: center;
+    justify-content: center;
+}
