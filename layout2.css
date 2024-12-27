@@ -1,0 +1,48 @@
+:root{
+    --green: rgb(183, 226, 183);
+}
+.all{
+    color: black;
+    background-color: var(--green);
+    border: 1px solid black;
+    display: flex;
+    letter-spacing: 2px; 
+    margin: 0;
+    padding: 0;
+}
+#header {
+    width: 100%;
+    height: 40px;
+    line-height: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+#nav {
+    width: 30%;
+    height: 200px;
+    line-height: 30px;
+    float: left;
+}
+
+#section {
+    width: 30%;
+    height: 200px;
+    line-height: 30px;
+    float: right;
+}
+
+#article {
+    width: 39.65%;
+    height: 200px;
+    line-height: 30px;
+    justify-content: center;
+}
+
+#footer {
+    width: 100%;
+    height: 40px;
+    line-height: 30px;
+    align-items: center;
+    justify-content: center;
+}

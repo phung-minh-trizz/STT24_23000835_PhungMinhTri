@@ -1,0 +1,52 @@
+
+:root {
+    --mau-xanh: rgba(55, 169, 214, 0.233);
+}
+
+.nhung_diem_chung {
+    color: black;
+    background-color: var(--mau-xanh);
+    border: 1px solid black;
+    text-align: center;
+    display: flex;
+    list-style: none;
+    letter-spacing: 1px; 
+    margin: 0;
+    padding: 0;
+    }
+
+#header {
+    width: 100%;
+    height: 50px;
+    line-height: 30px;
+}
+#nav {
+    width: 29.78%;
+    height: 200px;
+    line-height: 30px;
+    float: left;
+}
+
+#footer{
+       width: 100%;
+       height: 50px;
+       line-height: 30px;
+}
+
+#section {
+    width: 70%;
+    height: 200px;
+    line-height: 30px;
+    float: right;
+  }
+
+#article {
+    width: 65%;
+    height: 150px;
+    line-height: 30px;
+    float: right;
+    letter-spacing: 1px; 
+    margin-right: 60px;
+    margin-top: -170px;
+    border: 1px solid black;
+    }
